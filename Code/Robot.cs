@@ -2,7 +2,7 @@
 {
     class Robot
     {
-        Position posRobot { get; set; }
+        public Position posRobot { get; set; }
 
         public Robot(Position posRobot)
         {

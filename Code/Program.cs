@@ -14,7 +14,7 @@ namespace Examination
             Robot robot = new Robot(posRobot);
             robot.Run(file.operations);
 
-            Console.WriteLine(Position.Compare(posRobot, endPostion));
+            Console.WriteLine(Position.Compare(robot.posRobot, endPostion));
         }
     }
 }
